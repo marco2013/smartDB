@@ -9,7 +9,7 @@ import (
 
 func main() {
 
-  db, err := smartDB.NewDb("mysql", "root:root@tcp(192.168.1.xx:3306)/test?charset=utf8")
+  db, err := smartDB.NewDb("mysql", "usrname:pwd@tcp(xx.xx.xx.xx:3306)/test?charset=utf8")
 
 	//query some, return sql.Rows
 	rows, _ := db.Query("select id,name from person")
