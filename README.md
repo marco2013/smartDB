@@ -1,10 +1,16 @@
- smartDbTest.go
+//first
+need to download golang mysql driver package and smartDB package
+go get github.com/go-sql-driver/mysql
+go get github.com/marco2013/smartDB
+//second use this package in your projects
+
+smartDbTest.go
 
 package main
 
 import (
 	"fmt"
-	"smartDB"
+	"github.com/marco2013/smartDB"
 )
 
 func main() {
@@ -29,6 +35,4 @@ func main() {
 # smartDB
 Encapsulate mysql basic crdu operation in a package with golang
 
-1 need to download golang mysql driver package
-go get github.com/go-sql-driver/mysql
 
